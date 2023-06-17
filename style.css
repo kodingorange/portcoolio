@@ -1,0 +1,71 @@
+.name {
+  position: absolute;
+  padding-left: 10 px;
+  color: pink;
+  font-family: Lucida Sans Typewriter,monospace;
+  font-style: italic;
+  font-size: 150 px;
+  letter-spacing: 3px;
+  text-shadow: -5px 8px 11px black;
+
+}
+
+    .header{
+        display:flex;
+        flex-direction:column;
+        align-items: left;
+        padding:10 px;
+        background-size: 1050px 300px;
+        background: url("../portcoolio/GGB.jpg");
+    }
+
+      .nav ul li  { 
+          position: Center;
+          color: pink;
+          font-family: Lucida Sans Typewriter,monospace;
+          font-style: italic;
+          font-size: 150 px;
+          letter-spacing: 3px;
+          text-shadow: -5px 8px 11px black;
+      }
+
+      .me {
+        width: 500px;
+        height: 800px;
+        margin-right: 50px;
+        padding: 3px;
+        clear: both;
+        float: left;
+        background-color: #e8eef3;
+      
+      }
+
+      .h2 {
+        position:absolute;
+        color: pink;
+        font-family: Lucida Sans Typewriter,monospace;
+        font-style: italic;
+        font-size: 100 px;
+        letter-spacing: 3px;
+        text-shadow: -5px 8px 11px black;
+        
+        flex-direction: column;
+        text-transform: uppercase;
+    }
+    
+    .h3 {
+        margin-right: 20px;
+        padding: 20px;
+        clear: both;
+        float: right;
+        width: 20%;
+        height: 100%;
+    }
+    
+@media screen and (max-width: 768px) {}
+  main,
+  nav,
+
+  .body-flex {
+    flex-direction: column;
+  }
